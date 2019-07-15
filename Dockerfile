@@ -1,4 +1,4 @@
-FROM alpine
+FROM docker
 
 RUN apk update && apk add socat
 
